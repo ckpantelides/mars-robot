@@ -16,19 +16,34 @@ app.set('view engine', 'ejs');
 var Robot = require('./modules/robot');
 var move = require('./modules/move');
 
+// inquirer used for command line arguments
+// var inquirer = require('inquirer');
+
 app.get('/', function (req, res) {
 
+  const inquirer = require('inquirer');
+
+  inquirer.prompt([{
+      name: 'start',
+      type: 'input',
+      message: 'Robot starting position please',}
+      ,{
+      name: 'route',
+      type: 'input',
+      message: 'Directions for robot please',
+      }])
+  .then((answers) => {
+
+    var start = answers.start.split("");
+    let kyri = new Robot (start[0], start[1], start[2]);
+    let route = JSON.stringify(answers.route);
+    move(kyri, route);
+    kyri.position();
+  });
+
   // retrieve command line arguments (ignoring "node app.js")
-  const args = process.argv.slice(2)
-//  console.log(args[0]);
+  // const args = process.argv.slice(2);
 
-  let kyri = new Robot (1,3, "E");
-
-  console.log(kyri);
-
-  move(kyri, args[0]);
-
-  console.log(kyri);
   res.render('index', {title: "Mars Robot", error: null});
 
 })

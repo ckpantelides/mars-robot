@@ -6,6 +6,9 @@ module.exports = class Robot {
     this.y = y;
     this.direction = direction;
   }
+  position () {
+    console.log(`${this.x}${this.y}${this.direction}`);
+  }
 }
 
 // exports.Robot = Robot;
