@@ -3,9 +3,9 @@ Mars robot
 
 #### Challenge - model a mars robot that can move across Mars' terrain
 
-* Built with node modules and Express. The CLI is built using [inquirer](https://www.npmjs.com/package/inquirer) 
+* Built with node modules. The CLI is built using [inquirer](https://www.npmjs.com/package/inquirer) 
 * Mars is a 2D grid, which we define the size of
-* The robot has a starting position on Mars, as well as a starting direction (e.g. N = North, E = East...)
+* We give the robot has a starting position on the Mars-grid, as well as a starting direction (e.g. N = North, E = East...)
 * The robot accepts a string of directions - F to move forward one space, L to turn left 90&#x0970;, R to turn right 90&#x0970;
 * The directions string is interpreted by the move.js module
 
