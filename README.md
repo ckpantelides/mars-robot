@@ -16,5 +16,13 @@ Tests?
 > look at your original console
 
 ![img1]
+![img2]
+![img3]
+![img4]
+![img5]
 
 [img1]: https://github.com/ckpantelides/mars-robot/blob/assets/images/mars1.PNG
+[img2]: https://github.com/ckpantelides/mars-robot/blob/assets/images/mars1.PNG
+[img3]: https://github.com/ckpantelides/mars-robot/blob/assets/images/mars1.PNG
+[img4]: https://github.com/ckpantelides/mars-robot/blob/assets/images/mars1.PNG
+[img5]: https://github.com/ckpantelides/mars-robot/blob/assets/images/mars1.PNG
