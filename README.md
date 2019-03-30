@@ -21,8 +21,8 @@ Tests?
 ![img4]
 ![img5]
 
-[img1]: https://github.com/ckpantelides/mars-robot/blob/assets/images/mars1.PNG
-[img2]: https://github.com/ckpantelides/mars-robot/blob/assets/images/mars2.PNG
-[img3]: https://github.com/ckpantelides/mars-robot/blob/assets/images/mars3.PNG
-[img4]: https://github.com/ckpantelides/mars-robot/blob/assets/images/mars4.PNG
-[img5]: https://github.com/ckpantelides/mars-robot/blob/assets/images/mars5.PNG
+[img1]: https://github.com/ckpantelides/mars-robot/blob/assets/images/mars1.png
+[img2]: https://github.com/ckpantelides/mars-robot/blob/assets/images/mars2.png
+[img3]: https://github.com/ckpantelides/mars-robot/blob/assets/images/mars3.png
+[img4]: https://github.com/ckpantelides/mars-robot/blob/assets/images/mars4.png
+[img5]: https://github.com/ckpantelides/mars-robot/blob/assets/images/mars5.png
